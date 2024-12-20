@@ -94,6 +94,23 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	.btn {
+		display: inline-block;
+		padding: 10px 20px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		border: 2px solid #a8c4ff;
+		color: #ffffff;
+		background: none;
+		transition: all 0.2s ease;
+		position: static;
+		top: 50%;
+  		width: 100%;
+  		text-align: center;
+  		font-size: 18px;
+		margin-bottom: 25px;
+	}
+
 	body {
 		background: #1b1f22;
 	}
