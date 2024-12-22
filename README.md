@@ -15,7 +15,7 @@ Hello! My name is **Harvey Francis P. Magarin** this is my ePortfolio! I am a 3r
 - [Bootstrap](/https://getbootstrap.com/)
 
 ### Template:
-- [html5up] - Dimenion (/https://html5up.net)
+- [html5up](/https://html5up.net) - Dimenion
 
 ### Icons:
 - [Font Awesome](/fontawesome.io)
