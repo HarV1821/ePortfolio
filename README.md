@@ -3,7 +3,7 @@
 Hello! My name is **Harvey Francis P. Magarin** this is my ePortfolio! I am a 3rd-year Computer Science student from the Philippines. My passion is to learn more about Technology and be able to utilize it to solve different kinds of problems. Here you can find my projects, skills, and background! 
 
 ## Link to my ePortfolio
-<harv1821.github.io/ePortfolio/>
+<https://harv1821.github.io/ePortfolio/>
 
 ## Here is the is the list of technologies for my ePortfolio:
 
