@@ -1,14 +1,14 @@
 ﻿import SectionCard from "./SectionCard";
 
 const PROJECTS = [
-  { title: "Project One", description: "A short, plain description of what this project does and the problem it solves.", tags: ["React", "Node.js"] },
-  { title: "Project Two", description: "Swap this out with a real project. Keep the description specific rather than clever.", tags: ["Python", "Data"] },
-  { title: "Project Three", description: "A third example — link to a live demo or repo once this section is wired up.", tags: ["TailwindCSS", "Vite"] },
+  { title: "AniGUI", description: "Python-based native desktop client prototype using multiple APIs for streaming anime.", tags: ["Python", "PYQT6", "Multi-API", "SQLite", "FFMPEG"] },
+  { title: "Umazing Discord Bot", description: "Discord bot that provides information, news, and other features on the game “Uma Musume” using the Umapyoi.net API.", tags: ["Python"] },
+  { title: "iPara", description: "Flutter-based mobile application for commuting passengers and drivers, offering real-time public utility vehicles and jeepney tracking.", tags: ["Flutter", "Dart"] },
 ];
 
 export default function Projects() {
   return (
-    <div className="h-full w-full flex items-center justify-center px-6">
+    <div className="h-full w-full flex items-center justify-center px-6 pt-40 sm:pt-48">
       <SectionCard className="max-w-4xl w-full">
         <p className="font-body text-stone text-sm tracking-[0.3em] uppercase mb-3 text-center">
           Selected Work

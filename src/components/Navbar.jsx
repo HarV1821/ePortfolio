@@ -1,3 +1,5 @@
+﻿import harveyLogo from "../assets/Harvey-Logo.png";
+
 const LINKS = [
   { id: "about", label: "About" },
   { id: "projects", label: "Projects" },
@@ -15,12 +17,12 @@ export default function Navbar({ visible, activeSection, onNavigate }) {
       }`}
     >
       <div className="bg-washi/90 backdrop-blur-sm border-b border-stone/20">
-        <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <button
             onClick={() => onNavigate("home")}
-            className="font-display text-sumi text-lg tracking-wide hover:text-torii transition-colors"
+            className="hover:opacity-80 transition-opacity -ml-2"
           >
-            鳥居
+            <img src={harveyLogo} alt="Harvey Francis Magarin logo" className="h-16 w-auto" />
           </button>
           <ul className="flex gap-8">
             {LINKS.map((link) => (

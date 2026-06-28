@@ -26,7 +26,7 @@ export default function App() {
           }
         });
       },
-      { root: containerRef.current, threshold: 0.6 }
+      { root: null, threshold: 0.6 }
     );
 
     SECTIONS.forEach((id) => {
@@ -45,7 +45,7 @@ export default function App() {
     <div className="relative">
       <Navbar visible={pastHome} activeSection={activeSection} onNavigate={scrollToSection} />
       <div ref={containerRef} className="snap-container">
-        <section id="home" ref={(el) => (sectionRefs.current.home = el)} className="h-screen w-full">
+        <section id="home" ref={(el) => (sectionRefs.current.home = el)} className="h-[90vh] w-full">
           <Homepage onEnter={() => scrollToSection("about")} />
         </section>
 

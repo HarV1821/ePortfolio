@@ -8,7 +8,7 @@ const SKILL_GROUPS = [
 
 export default function Skills() {
   return (
-    <div className="h-full w-full flex items-center justify-center px-6">
+    <div className="h-full w-full flex items-center justify-center px-6 pt-40 sm:pt-48">
       <SectionCard className="max-w-3xl w-full">
         <p className="font-body text-stone text-sm tracking-[0.3em] uppercase mb-3 text-center">
           What I Work With

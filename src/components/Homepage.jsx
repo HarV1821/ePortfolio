@@ -4,13 +4,13 @@ export default function Homepage({ onEnter }) {
   return (
     <VantaBackground
       effect="waves"
-      className="relative h-screen w-full overflow-hidden"
+      className="relative h-[90vh] w-full overflow-hidden"
       options={{
-        color: 0x2b1c3c,
-        shininess: 30.0,
-        waveHeight: 15.0,
-        waveSpeed: 1.0,
-        zoom: 1.0,
+        color: 0x4a4458,
+        shininess: 8.0,
+        waveHeight: 6.0,
+        waveSpeed: 0.6,
+        zoom: 0.85,
       }}
     >
       <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
@@ -18,7 +18,7 @@ export default function Homepage({ onEnter }) {
           Harvey Francis Magarin
         </h1>
         <p className="font-body font-medium text-washi text-base sm:text-lg mt-5 max-w-md drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]">
-          Developer
+          Software Developer
         </p>
       </div>
 

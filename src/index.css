@@ -1,4 +1,15 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
+
+@theme {
+  --color-washi: #F7F4ED;
+  --color-sumi: #1C1A17;
+  --color-torii: #B23A2E;
+  --color-stone: #8A8578;
+  --color-moss: #3D4A3E;
+
+  --font-display: "Shippori Mincho", serif;
+  --font-body: "Inter", sans-serif;
+}
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +21,7 @@ html {
 }
 
 .snap-section {
-  min-height: 120vh;
+  min-height: 100vh;
   width: 100%;
 }
 

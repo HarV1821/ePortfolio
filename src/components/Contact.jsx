@@ -2,7 +2,7 @@
 
 export default function Contact() {
   return (
-    <div className="h-full w-full flex items-center justify-center px-6">
+    <div className="h-full w-full flex items-center justify-center px-6 pt-40 sm:pt-48">
       <SectionCard className="max-w-2xl w-full text-center">
         <p className="font-body text-stone text-sm tracking-[0.3em] uppercase mb-3">
           Get in Touch

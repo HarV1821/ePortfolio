@@ -2,7 +2,7 @@
 
 export default function AboutMe() {
   return (
-    <div className="h-full w-full flex items-center justify-center px-6 pt-32">
+    <div className="h-full w-full flex items-center justify-center px-6 pt-40 sm:pt-48">
       <SectionCard className="max-w-3xl">
         <div className="grid md:grid-cols-[1px_1fr] gap-10">
           <div className="hidden md:block w-px bg-stone/30" />
@@ -15,16 +15,10 @@ export default function AboutMe() {
               A little about who I am
             </h2>
             <p className="font-body text-sumi/80 text-base md:text-lg leading-relaxed max-w-xl">
-              I'm a developer who believes good software should feel as
-              considered as a well-kept garden — nothing extra, nothing
-              missing. This is placeholder copy; replace it with your own
-              story: where you've worked, what drives you, and what kind
-              of problems you like to solve.
+              A results-driven Computer Science graduate from the University of Science and Technology of Southern Philippines (USTP), a nationally recognized public state university focused on Science and Technology education in Northern Mindanao. Knowledgeable and developed a strong interest in artificial intelligence, machine learning and software development through academic coursework and projects. Has experience in dealing with embedded system projects using Arduino.
             </p>
             <p className="font-body text-sumi/80 text-base md:text-lg leading-relaxed max-w-xl mt-4">
-              Outside of code, I [hobby], [hobby], and [interest] — small
-              details like this help visitors remember you as a person,
-              not just a resume.
+              My Resume
             </p>
           </div>
         </div>
